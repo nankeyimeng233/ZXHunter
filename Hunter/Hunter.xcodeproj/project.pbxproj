@@ -16,6 +16,7 @@
 		93371D601DA5A570006AB72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93371D5E1DA5A570006AB72D /* LaunchScreen.storyboard */; };
 		93371D6B1DA5A570006AB72D /* HunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93371D6A1DA5A570006AB72D /* HunterTests.m */; };
 		93371D761DA5A570006AB72D /* HunterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93371D751DA5A570006AB72D /* HunterUITests.m */; };
+		93371D851DA5A62B006AB72D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 93371D841DA5A62B006AB72D /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		93371D711DA5A570006AB72D /* HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93371D751DA5A570006AB72D /* HunterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HunterUITests.m; sourceTree = "<group>"; };
 		93371D771DA5A570006AB72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93371D831DA5A62B006AB72D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		93371D841DA5A62B006AB72D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				93371D511DA5A570006AB72D /* AppDelegate.m */,
 				93371D531DA5A570006AB72D /* ViewController.h */,
 				93371D541DA5A570006AB72D /* ViewController.m */,
+				93371D831DA5A62B006AB72D /* Person.h */,
+				93371D841DA5A62B006AB72D /* Person.m */,
 				93371D561DA5A570006AB72D /* Main.storyboard */,
 				93371D5C1DA5A570006AB72D /* Assets.xcassets */,
 				93371D5E1DA5A570006AB72D /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				93371D551DA5A570006AB72D /* ViewController.m in Sources */,
 				93371D5B1DA5A570006AB72D /* Hunter.xcdatamodeld in Sources */,
+				93371D851DA5A62B006AB72D /* Person.m in Sources */,
 				93371D521DA5A570006AB72D /* AppDelegate.m in Sources */,
 				93371D4F1DA5A570006AB72D /* main.m in Sources */,
 			);
