@@ -10,4 +10,7 @@
 
 @interface Cat : NSObject
 
+@property(nonatomic,strong)NSArray *name;
+@property(nonatomic,assign)NSInteger *catnum;
+
 @end
