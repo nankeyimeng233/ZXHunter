@@ -86,6 +86,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9327AB7A1DA9791F00955666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9327AB7B1DA9792800955666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9327AB7C1DA9793000955666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		93371D411DA5A56F006AB72D = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +130,9 @@
 		93371D4C1DA5A570006AB72D /* Hunter */ = {
 			isa = PBXGroup;
 			children = (
+				9327AB7C1DA9793000955666 /* Controller */,
+				9327AB7B1DA9792800955666 /* View */,
+				9327AB7A1DA9791F00955666 /* Model */,
 				93371D501DA5A570006AB72D /* AppDelegate.h */,
 				93371D511DA5A570006AB72D /* AppDelegate.m */,
 				93371D531DA5A570006AB72D /* ViewController.h */,
